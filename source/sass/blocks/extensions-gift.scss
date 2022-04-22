@@ -1,0 +1,16 @@
+.extensions__gift {
+  background-image: url("../img/gift-picture.svg"), url("../img/rectangle-gift.svg"), url("../img/gift-background.png"), linear-gradient(to bottom, #f2f2f2 50%, #ffffff 50%);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: bottom 151px center, center, center, center;
+  background-size: 78px 80px, cover, contain, cover;
+  padding: 187px 61px 43px 58px;
+  margin: 35px 0;
+}
+
+.extensions__gift--description {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}

@@ -1,0 +1,53 @@
+.example {
+  background-color: #eaeaea;
+}
+
+.example__wrapper {
+  padding: 25px 20px 20px;
+}
+
+.example__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.example__description {
+  margin: 0;
+  color: #444444;
+  font-family: "Arial", sans-serif;
+}
+
+.example__content {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.example__item {
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  box-sizing: border-box;
+
+  &--weight {
+    padding: 14px 42px 18px;
+  }
+
+  &--period {
+    padding: 14px 21px 18px;
+  }
+}
+
+.example__content--description {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
