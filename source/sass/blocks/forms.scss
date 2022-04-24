@@ -1,0 +1,84 @@
+.form__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.form__item {
+  margin-bottom: 14px;
+}
+
+.form__item--content {
+  display: flex;
+  align-items: center;
+}
+
+.form__item--title {
+  margin-right: 10px;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.form__item--text {
+  flex-grow: 1;
+  margin: 0;
+  padding: 13px 0 14px 15px;
+  border: 1px solid #e7e7e7;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+.form__item--radio {
+  margin: 0;
+  margin-right: 23px;
+}
+
+.radio-mark--label {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.form__item--textarea {
+  width: 280px;
+  height: 150px;
+  border: 1px solid #e7e7e7;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+  padding: 9px 12px 9px 15px;
+  box-sizing: border-box;
+}
+
+.form__item--checkbox {
+  margin-right: 21px;
+}
+
+.checkbox-mark--label {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.form__note {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.form__button--apply {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 7px auto;
+}
