@@ -1,15 +1,11 @@
 .extensions {
   background-color: #ffffff;
-}
-
-.extensions__wrapper {
-  padding: 0 20px;
+  padding: 25px 20px 35px;
 }
 
 .extensions__title {
   margin: 0;
-  padding: 25px 0 36px;
-  border-bottom: 1px solid #cdcdcd;
+  margin-bottom: 36px;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
@@ -19,11 +15,16 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  margin-bottom: 35px;
 }
 
 .extensions__item {
   padding: 13px 0 19px;
-  border-bottom: 1px solid #cdcdcd;
+  border-top: 1px solid #cdcdcd;
+
+  &:last-child {
+    border-bottom: 1px solid #cdcdcd;
+  }
 }
 
 .extensions__item--title {
@@ -42,4 +43,57 @@
   color: #444444;
   line-height: 14px;
   margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .extensions {
+    padding: 0 30px 76px;
+  }
+
+  .extensions__title {
+    margin-bottom: 80px;
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .extensions__list {
+    margin-bottom: 69px;
+  }
+
+  .extensions__item {
+    padding: 26px 38px 28px;
+    border: 1px solid #cdcdcd;
+    border-bottom: none;
+
+    &:last-child {
+      border-bottom: 1px soli #cdcdcd;
+    }
+    display: grid;
+    grid-template-areas:
+      "title description"
+      "button button";
+    grid-row-gap: 25px;
+  }
+
+  .button--order {
+    width: 100%;
+    grid-area: button;
+  }
+
+  .extensions__item--title {
+    margin: 0;
+    font-size: 20px;
+    line-height: 20px;
+    grid-area: title;
+  }
+
+  .extensions__item--description {
+    grid-area: description;
+    margin: 0;
+    justify-content: flex-end;
+  }
+
+  .extensions__item--cost {
+    margin-left: 50px;
+  }
 }

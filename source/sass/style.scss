@@ -14,7 +14,6 @@
 @import "./blocks/footer-social.scss";
 @import "./blocks/footer-copyright.scss";
 @import "./blocks/footer-logo.scss";
-@import "./blocks/main-nav__list.scss";
 @import "./blocks/main.scss";
 @import "./blocks/program.scss";
 @import "./blocks/forms.scss";
@@ -23,19 +22,6 @@
 @import "./blocks/product-item__show-more.scss";
 @import "./blocks/extensions.scss";
 @import "./blocks/extensions-gift.scss";
-
-@font-face {
-  font-family: "Oswald";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/oswaldregular.woff2") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Oswald";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/oswaldmedium.woff2") format("woff2");
-  font-display: swap;
-}
+@import "./blocks/fonts.scss";
+@import "./blocks/variables.scss";
+@import "./blocks/location.scss";

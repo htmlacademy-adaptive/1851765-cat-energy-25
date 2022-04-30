@@ -1,6 +1,6 @@
 .form__list {
   margin: 0;
-  padding: 0;
+  padding: 0 20px;
   list-style: none;
 }
 
@@ -55,6 +55,7 @@
   line-height: 18px;
   text-transform: uppercase;
   color: #444444;
+  margin-left: 20px;
   padding: 9px 12px 9px 15px;
   box-sizing: border-box;
 }
@@ -80,5 +81,60 @@
 .form__button--apply {
   font-size: 16px;
   line-height: 20px;
-  padding: 7px auto;
+}
+
+@media (min-width: 768px) {
+  .form__list {
+    padding: 0;
+
+    &--additionally {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .form__item {
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .form__item--title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .form__item--textarea {
+    margin: 0;
+    width: 631px;
+    padding: 10px 19px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #444444;
+    height: 174px;
+  }
+
+  .radio-mark--label {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .checkbox-mark--label {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .form__button--apply {
+    margin-right: 61px;
+    width: 282px;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 13px 0;
+  }
+
+  .form__note {
+    font-size: 16px;
+  }
 }
