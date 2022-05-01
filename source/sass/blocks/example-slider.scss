@@ -1,11 +1,12 @@
 .example__slider {
   &--image {
-    padding: 20px 20px 10px;
+    padding-bottom: 15px;
     position: relative;
   }
 
   &--text {
-    padding: 5px 55px 40px;
+    margin: 0 auto;
+    width: 210px;
     display: flex;
     justify-content: space-around;
     align-items: center;

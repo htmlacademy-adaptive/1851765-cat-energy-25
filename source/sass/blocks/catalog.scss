@@ -1,4 +1,11 @@
-.catalog__wrapper {
+.catalog {
   padding: 20px;
   background-color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .catalog {
+    padding: 0 30px;
+    margin-bottom: 45px;
+  }
 }

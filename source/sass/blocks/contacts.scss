@@ -1,9 +1,13 @@
 .contacts {
+  background-color: #ffffff;
+  padding: 26px 20px;
+}
+
+.contacts--secondary-page {
   background-color: #f2f2f2;
 }
 
 .contacts__wrapper {
-  padding: 26px 20px;
   display: flex;
 }
 
@@ -12,10 +16,34 @@
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
+  color: #111111;
 }
 
 .contacts__description {
   margin: 0;
   font-family: "Arial", sans-serif;
   color: #444444;
+}
+
+@media (min-width: 768px) {
+  .contacts {
+    padding: 56px 70px;
+  }
+
+  .contacts__wrapper {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contacts__title {
+    width: 170px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .contacts__description {
+    font-size: 16px;
+    width: 160px;
+    align-self: auto;
+  }
 }

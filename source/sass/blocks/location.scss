@@ -1,0 +1,9 @@
+.location__wrapper {
+  height: 362px;
+}
+
+@media (min-width: 768px) {
+  .location__wrapper {
+    height: 400px;
+  }
+}

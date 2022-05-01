@@ -17,3 +17,24 @@
   margin: 0;
   list-style: none;
 }
+
+@media (min-width: 768px) {
+  .products__title {
+    font-size: 60px;
+    line-height: 60px;
+    border: none;
+    padding: 0;
+    margin-bottom: 90px;
+  }
+
+  .products {
+    padding: 0 30px 68px;
+  }
+
+  .products__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 141px;
+    grid-column-gap: 60px;
+  }
+}

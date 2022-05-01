@@ -1,12 +1,20 @@
 .main-footer {
   background-color: #f2f2f2;
-}
-
-.main-footer__wrapper {
   padding: 0 20px;
-  text-align: center;
 }
 
 .footer__icon {
   fill: #666666;
+}
+
+@media (min-width: 768px) {
+  .main-footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .main-footer {
+    padding: 58px 30px 55px;
+  }
 }

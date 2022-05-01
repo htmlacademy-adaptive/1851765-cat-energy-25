@@ -1,9 +1,10 @@
 .example {
   background-color: #eaeaea;
+  padding: 25px 20px 40px;
 }
 
 .example__wrapper {
-  padding: 25px 20px 20px;
+  padding-bottom: 20px;
 }
 
 .example__title {
@@ -16,6 +17,7 @@
 
 .example__description {
   margin: 0;
+  margin-bottom: 20px;
   color: #444444;
   font-family: "Arial", sans-serif;
 }
@@ -27,12 +29,14 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
+  margin-bottom: 34px;
 }
 
 .example__item {
   border: 1px solid #cdcdcd;
   border-radius: 3px;
   box-sizing: border-box;
+  margin: 0;
 
   &--weight {
     padding: 14px 42px 18px;
@@ -49,4 +53,57 @@
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .example__title {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 63px;
+  }
+
+  .example {
+    padding: 43px 30px 60px;
+
+    &__wrapper {
+      padding-bottom: 85px;
+    }
+  }
+
+  .example__description {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 54px;
+  }
+
+  .example__content--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .example__content {
+    margin-bottom: 0;
+  }
+
+  .example__item {
+    font-size: 30px;
+    line-height: 37px;
+
+    &--weight {
+      padding: 15px 57px 20px;
+      margin-right: 42px;
+    }
+
+    &--period {
+      padding: 15px 30px 20px;
+    }
+  }
+
+  .example__content--description {
+    font-size: 20px;
+    line-height: 20px;
+    width: 174px;
+    text-align: right;
+  }
 }

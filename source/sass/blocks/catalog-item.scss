@@ -45,3 +45,39 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
+@media (min-width: 768px) {
+  .catalog__item {
+    padding: 77px 316px 57px 52px;
+  }
+
+  .catalog__title {
+    padding: 0;
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .catalog__description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    border-bottom: none;
+    margin-bottom: 52px;
+    padding: 0;
+  }
+
+  .catalog__link {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .catalog__item--slim {
+    background-size: 200px 211px;
+    background-position: right 62px center;
+  }
+
+  .catalog__item--pro {
+    background-size: 268px 200px;
+    background-position: right 28px center;
+  }
+}

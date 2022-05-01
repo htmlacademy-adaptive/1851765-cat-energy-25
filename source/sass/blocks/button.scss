@@ -1,6 +1,6 @@
 .button {
   display: inline-block;
-  padding: 7px;
+  padding: 7px 0;
   border: none;
   width: 280px;
   box-sizing: border-box;
@@ -13,4 +13,13 @@
   line-height: 18px;
   font-family: "Oswald", sans-serif;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .button {
+    width: 244px;
+    padding: 17px 0;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }

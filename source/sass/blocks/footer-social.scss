@@ -10,3 +10,13 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@media (min-width: 768px) {
+  .main-footer__social {
+    padding: 0;
+  }
+
+  .social__list {
+    width: 132px;
+  }
+}
