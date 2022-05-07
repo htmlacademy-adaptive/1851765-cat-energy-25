@@ -152,11 +152,15 @@
     &--profile:not(:last-child) {
       margin-bottom: 20px;
     }
-  }
 
-  .form__item--textarea {
-    width: 1220px;
-    margin: 0 auto;
+    &--textarea {
+      width: 1220px;
+      margin: 0 auto;
+    }
+
+    &--program:not(:last-child) {
+      margin-bottom: 23px;
+    }
   }
 
   .form__list--additionally {

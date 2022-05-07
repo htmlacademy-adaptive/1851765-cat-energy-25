@@ -11,6 +11,14 @@
 
 @media (min-width: 768px) {
   .page__body {
+    max-width: 768px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .page__body {
+    max-width: 1440px;
     width: 100%;
   }
 }

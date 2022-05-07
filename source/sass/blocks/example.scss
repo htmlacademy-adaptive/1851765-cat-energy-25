@@ -64,7 +64,7 @@
 
   .example {
     padding: 43px 30px 60px;
-    background-color: #ffffff;
+    background: linear-gradient(to bottom, #ffffff 619px, #eaeaea 136px);
 
     &__wrapper {
       padding-bottom: 85px;
@@ -113,6 +113,8 @@
   .example {
     background: linear-gradient(to bottom, #ffffff 136px, #eaeaea 136px);
     padding: 0 110px 75px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .example__title {
@@ -122,5 +124,22 @@
   .example__wrapper {
     width: 436px;
     padding: 0;
+  }
+
+  .example__slider--container {
+    align-self: flex-end;
+  }
+
+  .example__content--wrapper {
+    display: block;
+  }
+
+  .example__content {
+    margin-bottom: 60px;
+  }
+
+  .example__content--description {
+    width: auto;
+    text-align: left;
   }
 }

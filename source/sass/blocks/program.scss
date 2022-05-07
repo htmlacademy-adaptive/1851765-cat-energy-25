@@ -98,6 +98,7 @@
     border: 1px solid #e7e7e7;
     padding: 30px 38px;
     box-sizing: border-box;
+    margin-bottom: 75px;
   }
 
   .program__form--group:nth-child(3) {
@@ -132,6 +133,10 @@
     grid-template-columns: 568px 568px;
     grid-column-gap: 80px;
     margin-bottom: 69px;
+  }
+
+  .program__form--group-radio {
+    margin-bottom: 0;
   }
 
   .program__form--group:first-child {
