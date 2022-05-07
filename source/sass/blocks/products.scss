@@ -38,3 +38,19 @@
     grid-column-gap: 60px;
   }
 }
+
+@media (min-width: 1440px) {
+  .products {
+    padding: 74px 110px 75px;
+  }
+
+  .products__title {
+    margin-bottom: 165px;
+  }
+
+  .products__list {
+    grid-template-columns: repeat(4, 245px);
+    grid-column-gap: 80px;
+    grid-row-gap: 143px;
+  }
+}

@@ -75,7 +75,7 @@
     grid-row-gap: 25px;
   }
 
-  .button--order {
+  .button--order-other {
     width: 100%;
     grid-area: button;
   }
@@ -95,5 +95,43 @@
 
   .extensions__item--cost {
     margin-left: 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .extensions {
+    padding: 0 110px 76px;
+  }
+
+  .extensions__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .extensions__list {
+    width: 895px;
+    margin-bottom: 0;
+  }
+
+  .extensions__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 17px;
+    border-left: none;
+    border-right: none;
+  }
+
+  .extensions__item--description {
+    width: 288px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button--order-other {
+    width: 244px;
+    margin: 0;
+    margin-left: 38px;
   }
 }

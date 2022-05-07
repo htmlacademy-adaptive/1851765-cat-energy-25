@@ -13,3 +13,33 @@
   text-align: center;
   color: #ffffff;
 }
+
+@media (min-width: 768px) {
+  .extensions__gift {
+    background-image: url("../img/gift-picture.svg"), url("../img/rectangle-gift.svg"), url("../img/gift-background-tablet.png"), linear-gradient(to bottom, #f2f2f2 50%, #ffffff 50%);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: left 77px top 57px, center, center, center;
+    background-size: 78px 80px, cover, contain, cover;
+    padding: 71px 124px 69px 422px;
+  }
+
+  .extensions__gift--description {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1440px) {
+  .extensions__gift {
+    background-image: url("../img/gift-picture.svg"), url("../img/rectangle-gift.svg"), url("../img/gift-background-desktop.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left 77px top 57px, center, center;
+    background-size: 78px 80px, cover, contain;
+    padding: 184px 43px 42px 40px;
+    width: 245px;
+    box-sizing: border-box;
+  }
+
+  .extensions__gift--description {
+    text-align: center;
+  }
+}

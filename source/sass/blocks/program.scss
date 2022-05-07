@@ -101,8 +101,8 @@
   }
 
   .program__form--group:nth-child(3) {
-    margin-top: 75px;
-    padding-bottom: 65px;
+    margin: 75px 0 65px;
+    padding-bottom: 0;
   }
 
   .program__form--group:nth-child(4) {
@@ -115,5 +115,40 @@
 
   .program__container--button {
     display: flex;
+  }
+}
+
+@media (min-width: 1440px) {
+  .program__wrapper {
+    padding: 74px 110px 82px;
+  }
+
+  .program__title {
+    margin-bottom: 56px;
+  }
+
+  .program__form--profile {
+    display: grid;
+    grid-template-columns: 568px 568px;
+    grid-column-gap: 80px;
+    margin-bottom: 69px;
+  }
+
+  .program__form--group:first-child {
+    margin: 0;
+  }
+
+  .program__form--group {
+    padding-bottom: 0;
+  }
+
+  .program__form--group:nth-child(3) {
+    margin: 67px 0 65px;
+    padding-bottom: 0;
+  }
+
+  .program__form--group:nth-child(4) {
+    padding-bottom: 0;
+    margin-bottom: 61px;
   }
 }
