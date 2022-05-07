@@ -38,59 +38,61 @@
             <p class="program__description">Заполните анкету, и мы подберем<br> программу питания для вашего кота</p>
           </div>
           <form class="program__form" action="https://echo.htmlacademy.ru/" method="get">
-            <fieldset class="program__form--group">
-              <legend class="program__form--title visually-hidden">Данные о питомце.</legend>
-              <ul class="form__list">
-                <li class="form__item">
-                  <label class="form__item--content">
-                    <span class="form__item--title">имя:<sup>*</sup></span>
-                    <input class="form__item--text" type="text" name="cat-name" placeholder="барсик">
-                  </label>
-                </li>
-                <li class="form__item">
-                  <label class="form__item--content">
-                    <span class="form__item--title">вес(кг):<sup>*</sup></span>
-                    <input class="form__item--text" type="text" name="cat-weight" placeholder="7">
-                  </label>
-                </li>
-                <li class="form__item">
-                  <label class="form__item--content">
-                    <span class="form__item--title">возраст(лет):</span>
-                    <input class="form__item--text" type="text" name="cat-age" placeholder="7">
-                  </label>
-                </li>
-              </ul>
-            </fieldset>
-            <fieldset class="program__form--group program__form--group-radio">
-              <legend class="program__form--title visually-hidden">Выбор нужного эффекта.</legend>
-              <ul class="form__list">
-                <li class="form__item">
-                  <label class="form__item--content">
-                    <input class="form__item--radio" type="radio" name="Желаемый эффект." value="похудение" checked>
-                    <span class="radio-mark"></span>
-                    <span class="radio-mark--label">похудение</span>
-                  </label>
-                </li>
-                <li class="form__item">
-                  <label class="form__item--content">
-                    <input class="form__item--radio" type="radio" name="Желаемый эффект." value="набор массы">
-                    <span class="radio-mark"></span>
-                    <span class="radio-mark--label">Набор массы</span>
-                  </label>
-                </li>
-                <li class="form__item">
-                  <label class="form__item--content">
-                    <input class="form__item--radio" type="radio" name="Желаемый эффект." value="Нужен ваш совет">
-                    <span class="radio-mark"></span>
-                    <span class="radio-mark--label">Не знаю (Нужен ваш совет)</span>
-                  </label>
-                </li>
-              </ul>
-            </fieldset>
+            <div class="program__form--profile">
+              <fieldset class="program__form--group">
+                <legend class="program__form--title visually-hidden">Данные о питомце.</legend>
+                <ul class="form__list">
+                  <li class="form__item form__item--profile">
+                    <label class="form__item--content">
+                      <span class="form__item--title">имя:<sup>*</sup></span>
+                      <input class="form__item--text" type="text" name="cat-name" placeholder="барсик">
+                    </label>
+                  </li>
+                  <li class="form__item form__item--profile">
+                    <label class="form__item--content">
+                      <span class="form__item--title">вес(кг):<sup>*</sup></span>
+                      <input class="form__item--text" type="text" name="cat-weight" placeholder="7">
+                    </label>
+                  </li>
+                  <li class="form__item form__item--profile">
+                    <label class="form__item--content">
+                      <span class="form__item--title">возраст(лет):</span>
+                      <input class="form__item--text" type="text" name="cat-age" placeholder="7">
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+              <fieldset class="program__form--group program__form--group-radio">
+                <legend class="program__form--title visually-hidden">Выбор нужного эффекта.</legend>
+                <ul class="form__list">
+                  <li class="form__item">
+                    <label class="form__item--content">
+                      <input class="form__item--radio" type="radio" name="Желаемый эффект." value="похудение" checked>
+                      <span class="radio-mark"></span>
+                      <span class="radio-mark--label">похудение</span>
+                    </label>
+                  </li>
+                  <li class="form__item">
+                    <label class="form__item--content">
+                      <input class="form__item--radio" type="radio" name="Желаемый эффект." value="набор массы">
+                      <span class="radio-mark"></span>
+                      <span class="radio-mark--label">Набор массы</span>
+                    </label>
+                  </li>
+                  <li class="form__item">
+                    <label class="form__item--content">
+                      <input class="form__item--radio" type="radio" name="Желаемый эффект." value="Нужен ваш совет">
+                      <span class="radio-mark"></span>
+                      <span class="radio-mark--label">Не знаю (Нужен ваш совет)</span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+            </div>
             <fieldset class="program__form--group">
               <legend class="program__form--title">Контактные данные (владельца кота)</legend>
-              <ul class="form__list">
-                <li class="form__item">
+              <ul class="form__list form__list--contacts">
+                <li class="form__item form__item--contacts">
                   <label class="form__item--content">
                     <span class="form__item--title">E-mail:<sup>*</sup></span>
                     <input class="form__item--text" type="email" name="contact-email" placeholder="кuklachev@gmail.com">

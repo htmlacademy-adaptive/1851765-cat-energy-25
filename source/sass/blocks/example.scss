@@ -64,6 +64,7 @@
 
   .example {
     padding: 43px 30px 60px;
+    background-color: #ffffff;
 
     &__wrapper {
       padding-bottom: 85px;
@@ -105,5 +106,21 @@
     line-height: 20px;
     width: 174px;
     text-align: right;
+  }
+}
+
+@media (min-width: 1440px) {
+  .example {
+    background: linear-gradient(to bottom, #ffffff 136px, #eaeaea 136px);
+    padding: 0 110px 75px;
+  }
+
+  .example__title {
+    margin-bottom: 146px;
+  }
+
+  .example__wrapper {
+    width: 436px;
+    padding: 0;
   }
 }

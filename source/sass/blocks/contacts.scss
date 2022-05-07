@@ -1,6 +1,5 @@
 .contacts {
   background-color: #ffffff;
-  padding: 26px 20px;
 }
 
 .contacts--secondary-page {
@@ -9,10 +8,13 @@
 
 .contacts__wrapper {
   display: flex;
+  padding: 26px 20px;
+  background-color: #ffffff;
 }
 
 .contacts__title {
   margin: 0;
+  margin-right: 20px;
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
@@ -26,13 +28,10 @@
 }
 
 @media (min-width: 768px) {
-  .contacts {
-    padding: 56px 70px;
-  }
-
   .contacts__wrapper {
     justify-content: space-between;
     align-items: center;
+    padding: 56px 70px;
   }
 
   .contacts__title {
@@ -45,5 +44,25 @@
     font-size: 16px;
     width: 160px;
     align-self: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contacts__wrapper {
+    width: 565px;
+    height: 198px;
+    padding: 59px 80px 56px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 95px;
+    left: 110px;
+  }
+
+  .contacts__title {
+    margin: 0;
+  }
+
+  .contacts {
+    position: relative;
   }
 }

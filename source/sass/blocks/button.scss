@@ -2,7 +2,8 @@
   display: inline-block;
   padding: 7px 0;
   border: none;
-  width: 280px;
+  width: 100%;
+  margin: 0 auto;
   box-sizing: border-box;
   text-align: center;
   background-color: #68b738;
@@ -15,11 +16,26 @@
   cursor: pointer;
 }
 
+.button__container {
+  text-align: center;
+}
+
+@media (min-width: 467px) {
+  .button-to-form {
+    background-color: #ffffff;
+    color: #68b738;
+    border-bottom: 1px solid #68b738;
+  }
+}
+
 @media (min-width: 768px) {
   .button {
     width: 244px;
     padding: 17px 0;
     font-size: 20px;
     line-height: 20px;
+    border: none;
+    background-color: #68b738;
+    color: #ffffff;
   }
 }

@@ -1,6 +1,7 @@
 .catalog__item {
   background-color: #f2f2f2;
   padding: 30px 33px 20px 22px;
+  box-sizing: border-box;
 }
 
 .catalog__item--slim {
@@ -13,10 +14,6 @@
   background-image: url("../img/cat-pro.svg");
   background-repeat: no-repeat;
   background-position: left 13px top 24px;
-}
-
-.catalog__item:not(:last-child) {
-  margin-bottom: 20px;
 }
 
 .catalog__title {
@@ -79,5 +76,33 @@
   .catalog__item--pro {
     background-size: 268px 200px;
     background-position: right 28px center;
+  }
+}
+
+@media (min-width: 1440px) {
+  .catalog__item {
+    padding: 77px 51px 59px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .catalog__title {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .catalog__description {
+    margin-bottom: 0;
+  }
+
+  .catalog__item--slim {
+    background-size: 100px 106px;
+    background-position: left 52px top 41px;
+  }
+
+  .catalog__item--pro {
+    background-size: 134px 100px;
+    background-position: left 33px top 47px;
   }
 }

@@ -58,7 +58,9 @@
                   </ul>
                 </div>
               </div>
-              <button class="button--order button" type="button">заказать</button>
+              <div class="button__container">
+                <button class="button--order button" type="button">заказать</button>
+              </div>
             </li>
             <li class="products__item">
               <div class="product__item--content">
@@ -83,7 +85,9 @@
                   </ul>
                 </div>
               </div>
-              <button class="button--order button" type="button">заказать</button>
+              <div class="button__container">
+                <button class="button--order button" type="button">заказать</button>
+              </div>
             </li>
             <li class="products__item">
               <div class="product__item--content">
@@ -108,7 +112,9 @@
                   </ul>
                 </div>
               </div>
-              <button class="button--order button" type="button">заказать</button>
+              <div class="button__container">
+                <button class="button--order button" type="button">заказать</button>
+              </div>
             </li>
             <li class="products__item">
               <div class="product__item--content">
@@ -133,7 +139,9 @@
                   </ul>
                 </div>
               </div>
-              <button class="button--order button" type="button">заказать</button>
+              <div class="button__container">
+                <button class="button--order button" type="button">заказать</button>
+              </div>
             </li>
             <li class="products__item">
               <div class="product__item--content">
@@ -158,7 +166,9 @@
                   </ul>
                 </div>
               </div>
-              <button class="button--order button" type="button">заказать</button>
+              <div class="button__container">
+                <button class="button--order button" type="button">заказать</button>
+              </div>
             </li>
             <li class="products__item">
               <div class="product__item--content">
@@ -183,7 +193,9 @@
                   </ul>
                 </div>
               </div>
-              <button class="button--order button" type="button">заказать</button>
+              <div class="button__container">
+                <button class="button--order button" type="button">заказать</button>
+              </div>
             </li>
             <li class="products__item">
               <div class="product__item--content">
@@ -208,10 +220,12 @@
                   </ul>
                 </div>
               </div>
-              <button class="button--order button" type="button">заказать</button>
+              <div class="button__container">
+                <button class="button--order button" type="button">заказать</button>
+              </div>
             </li>
             <li class="products__item product__item--show-more">
-              <img class="show-more--image" src="img/plus.svg" width="30" height="30" alt="Показать еще.">
+              <div class="show-more--image"></div>
               <p class="product__item--title product__item--title-show-more">Показать еще 100500 товаров</p>
               <p class="product__item--description product__item--description-show-more">На самом деле вкусов гораздо больше!</p>
               <button class="button--show-more button" type="button">показать все</button>
@@ -222,42 +236,44 @@
       <section class="extensions">
         <div class="extensions__wrapper">
           <h2 class="extensions__title">Дополнительные товары</h2>
-          <ul class="extensions__list">
-            <li class="extensions__item">
-              <p class="extensions__item--title">Сахарозаменитель</p>
-              <div class="extensions__item--description">
-                <span class="extensions__item--detailed">1 упаковка (100 г)</span>
-                <span class="extensions__item--detailed extensions__item--cost">200 Р.</span>
-              </div>
-              <button class="button--order button" type="button">заказать</button>
-            </li>
-            <li class="extensions__item">
-              <p class="extensions__item--title">питьевая вода</p>
-              <div class="extensions__item--description">
-                <span class="extensions__item--detailed">5 литров</span>
-                <span class="extensions__item--detailed extensions__item--cost">50 Р.</span>
-              </div>
-              <button class="button--order button" type="button">заказать</button>
-            </li>
-            <li class="extensions__item">
-              <p class="extensions__item--title">молоко</p>
-              <div class="extensions__item--description">
-                <span class="extensions__item--detailed">1 литр</span>
-                <span class="extensions__item--detailed extensions__item--cost">100 Р.</span>
-              </div>
-              <button class="button--order button" type="button">заказать</button>
-            </li>
-            <li class="extensions__item">
-              <p class="extensions__item--title">витамины</p>
-              <div class="extensions__item--description">
-                <span class="extensions__item--detailed">1 упаковка (30 г)</span>
-                <span class="extensions__item--detailed extensions__item--cost">300 Р.</span>
-              </div>
-              <button class="button--order button" type="button">заказать</button>
-            </li>
-          </ul>
-          <div class="extensions__gift">
-            <p class="extensions__gift--description">Закажите все и получите чехол для кота в подарок!</p>
+          <div class="extensions__content">
+            <ul class="extensions__list">
+              <li class="extensions__item">
+                <p class="extensions__item--title">Сахарозаменитель</p>
+                <div class="extensions__item--description">
+                  <span class="extensions__item--detailed">1 упаковка (100 г)</span>
+                  <span class="extensions__item--detailed extensions__item--cost">200 Р.</span>
+                </div>
+                <button class="button--order button button--order-other" type="button">заказать</button>
+              </li>
+              <li class="extensions__item">
+                <p class="extensions__item--title">питьевая вода</p>
+                <div class="extensions__item--description">
+                  <span class="extensions__item--detailed">5 литров</span>
+                  <span class="extensions__item--detailed extensions__item--cost">50 Р.</span>
+                </div>
+                <button class="button--order button button--order-other" type="button">заказать</button>
+              </li>
+              <li class="extensions__item">
+                <p class="extensions__item--title">молоко</p>
+                <div class="extensions__item--description">
+                  <span class="extensions__item--detailed">1 литр</span>
+                  <span class="extensions__item--detailed extensions__item--cost">100 Р.</span>
+                </div>
+                <button class="button--order button button--order-other" type="button">заказать</button>
+              </li>
+              <li class="extensions__item">
+                <p class="extensions__item--title">витамины</p>
+                <div class="extensions__item--description">
+                  <span class="extensions__item--detailed">1 упаковка (30 г)</span>
+                  <span class="extensions__item--detailed extensions__item--cost">300 Р.</span>
+                </div>
+                <button class="button--order button button--order-other" type="button">заказать</button>
+              </li>
+            </ul>
+            <div class="extensions__gift">
+              <p class="extensions__gift--description">Закажите все и получите чехол для кота в подарок!</p>
+            </div>
           </div>
         </div>
       </section>
