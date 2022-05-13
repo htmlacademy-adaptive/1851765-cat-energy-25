@@ -30,8 +30,7 @@
 
 .program__form--group {
   border: none;
-  padding: 0;
-  padding-bottom: 24px;
+  padding: 0 20px 24px;
   margin: 0;
   box-sizing: border-box;
 }
@@ -44,12 +43,11 @@
 
 .program__form--group:nth-child(3) {
   margin-top: 26px;
-  padding-bottom: 23px;
+  padding: 0 23px 20px;
 }
 
-
 .program__form--title {
-  padding: 0 20px;
+  padding: 0;
   font-weight: 400;
   font-size: 24px;
   line-height: 26px;
@@ -58,6 +56,7 @@
 
 .program__container--button {
   text-align: center;
+  padding: 0 20px;
 }
 
 @media (min-width: 768px) {
@@ -116,6 +115,7 @@
 
   .program__container--button {
     display: flex;
+    padding: 0;
   }
 }
 

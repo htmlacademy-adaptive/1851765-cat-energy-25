@@ -1,5 +1,6 @@
 .main-header {
   padding: 10px 20px 17px;
+  position: relative;
 }
 
 .header__wrapper {
@@ -16,6 +17,14 @@
   background-image: url("../img/logo-mobile.svg"), url("../img/logo-mobile-txt.svg");
   background-position: left center, right center;
   background-repeat: no-repeat, no-repeat;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 @media (min-width: 768px) {
@@ -35,8 +44,12 @@
 
 @media (min-width: 1440px) {
   .main-header {
-    padding: 53px 110px 0;
+    padding: 49px 110px 0;
     margin: 0;
+  }
+
+  .header__wrapper {
+    background-color: transparent;
   }
 
   .main-header__logo {
