@@ -10,6 +10,10 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 @media (min-width: 768px) {
