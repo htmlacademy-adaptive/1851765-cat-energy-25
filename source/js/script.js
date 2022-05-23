@@ -37,4 +37,3 @@ buttonAfter.addEventListener('click', function () {
     sliderToggle.style.left = '44px';
   }
 });
-
