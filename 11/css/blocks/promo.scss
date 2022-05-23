@@ -1,0 +1,86 @@
+.promo__wrapper {
+  padding: 27px 20px 0 20px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.promo {
+  background-image: url("../img/index-can-mobile.png"), url("../img/rectangle-index.svg"), url("../img/promo-background-mobile.png"), linear-gradient(to bottom, #f2f2f2 302px, #ffffff 302px);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: bottom 43px center, top center, top center, center;
+  background-size: 280px 270px, contain, contain, cover;
+}
+
+.promo__title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.promo__description {
+  margin: 0;
+  margin-bottom: 302px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+@media (min-width: 467px) {
+  .promo {
+    background-image: url("../img/index-can-mobile.png"), url("../img/rectangle-index.svg"), url("../img/promo-background-mobile.png"), linear-gradient(to bottom, #f2f2f2 302px, #ffffff 302px);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: bottom 43px center, top center, top center, center;
+    background-size: 280px 270px, cover, cover, cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .promo {
+    background-image: url("../img/index-can-tablet.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 709px 609px;
+  }
+
+  .promo__wrapper {
+    padding: 0 120px 526px;
+    text-align: left;
+  }
+
+  .promo__title {
+    color: #000000;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: none;
+    margin-bottom: 41px;
+  }
+
+  .promo__description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 49px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .promo {
+    background-image: url("../img/index-can-mobile.png"), url("../img/rectangle-promo-desktop.png"), url("../img/promo-background-desktop.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom 54px center, center right, center right;
+    background-size: 552px 499px, 50%, 50%;
+    margin-top: -112px;
+    margin-bottom: 82px;
+  }
+
+  .promo__wrapper {
+    padding: 223px 0 185px 190px;
+  }
+
+  .promo__description {
+    margin-bottom: 52px;
+  }
+}
