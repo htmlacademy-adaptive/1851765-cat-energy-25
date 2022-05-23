@@ -320,11 +320,11 @@
   }
 }
 .main-nav--closed .main-nav__toggle-button {
-  background-image: url("/img/toggle-button--closed.svg");
+  background-image: url("../img/toggle-button--closed.svg");
 }
 
 .main-nav--opened .main-nav__toggle-button {
-  background-image: url("/img/toggle-button--opened.svg");
+  background-image: url("../img/toggle-button--opened.svg");
 }
 
 .main-nav__list {
@@ -465,7 +465,7 @@
 
 .promo__wrapper {
   background-color: #64a73c;
-  background-image: url("/img/background-promo.jpg");
+  background-image: url("../img/background-promo.jpg");
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: center top;
@@ -475,7 +475,7 @@
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .promo__wrapper {
-    background-image: url("/img/background-promo@2x.jpg");
+    background-image: url("../img/background-promo@2x.jpg");
     background-size: auto 100%;
   }
 }
@@ -601,7 +601,7 @@
     background-repeat: no-repeat;
     position: absolute;
     background-color: #68b738;
-    background-image: url("/img/background-desktop.jpg");
+    background-image: url("../img/background-desktop.jpg");
     background-size: cover;
     background-position: 0 0;
     top: 0;
@@ -614,7 +614,7 @@
 }
 @media (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1440px) and (min-resolution: 2dppx) {
   .promo::before {
-    background-image: url("/img/background-desktop@2x.jpg");
+    background-image: url("../img/background-desktop@2x.jpg");
     background-size: cover;
   }
 }
@@ -1613,7 +1613,7 @@
 
 .contacts__map-pin {
   position: absolute;
-  background-image: url("/img/map-pin-mobile.png");
+  background-image: url("../img/map-pin-mobile.png");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 56px;
@@ -1623,7 +1623,7 @@
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .contacts__map-pin {
-    background-image: url("/img/map-pin-mobile@2x.png");
+    background-image: url("../img/map-pin-mobile@2x.png");
   }
 }
 
@@ -1657,7 +1657,7 @@
   }
 
   .contacts__map-pin {
-    background-image: url("/img/map-pin-tablet.png");
+    background-image: url("../img/map-pin-tablet.png");
     width: 113px;
     height: 106px;
     top: 37%;
@@ -1666,7 +1666,7 @@
 }
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 2dppx) {
   .contacts__map-pin {
-    background-image: url("/img/map-pin-tablet@2x.png");
+    background-image: url("../img/map-pin-tablet@2x.png");
   }
 }
 @media (min-width: 768px) {
@@ -1728,14 +1728,14 @@
   }
 
   .contacts__map-pin {
-    background-image: url("/img/map-pin-desktop.png");
+    background-image: url("../img/map-pin-desktop.png");
     top: 33%;
     left: 63%;
   }
 }
 @media (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1440px) and (min-resolution: 2dppx) {
   .contacts__map-pin {
-    background-image: url("/img/map-pin-desktop@2x.png");
+    background-image: url("../img/map-pin-desktop@2x.png");
   }
 }
 @media (min-width: 1440px) {
@@ -2378,7 +2378,7 @@ input[type="number"] {
   top: 2px;
   width: 26px;
   height: 26px;
-  background-image: url("/img/tick-icon.svg");
+  background-image: url("../img/tick-icon.svg");
   background-repeat: no-repeat;
 }
 .checkbox__label .checkbox__checkmark::after:disabled {
@@ -2505,7 +2505,7 @@ input[type="number"] {
     top: 6px;
     width: 26px;
     height: 26px;
-    background-image: url("/img/tick-icon-tablet.svg");
+    background-image: url("../img/tick-icon-tablet.svg");
   }
 
   .radio__label {
@@ -2944,7 +2944,7 @@ input[type="number"] {
 
 .extensions__gift {
   background-color: #68b738;
-  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("/img/catalog-promo-image.png");
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog-promo-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2958,7 +2958,7 @@ input[type="number"] {
 }
 .extensions__gift::before {
   content: "";
-  background-image: url("/img/gift-icon.svg");
+  background-image: url("../img/gift-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
   display: block;
@@ -3027,7 +3027,7 @@ input[type="number"] {
   }
 
   .extensions__gift {
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("/img/catalog-promo-image-tablet.png");
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog-promo-image-tablet.png");
     margin-top: 69px;
     margin-bottom: 75px;
     display: flex;
@@ -3040,7 +3040,7 @@ input[type="number"] {
 }
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 2dppx) {
   .extensions__gift {
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("/img/catalog-promo-image@2x.png");
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog-promo-image@2x.png");
   }
 }
 @media (min-width: 768px) {
@@ -3103,7 +3103,7 @@ input[type="number"] {
   }
 
   .extensions__gift {
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("/img/catalog-promo-image-desktop.png");
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog-promo-image-desktop.png");
     margin: 0;
     padding-top: 61px;
     padding-bottom: 42px;
@@ -3116,7 +3116,7 @@ input[type="number"] {
 }
 @media (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1440px) and (min-resolution: 2dppx) {
   .extensions__gift {
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("/img/catalog-promo-image-desktop@2x.png");
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog-promo-image-desktop@2x.png");
   }
 }
 @media (min-width: 1440px) {
