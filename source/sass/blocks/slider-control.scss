@@ -1,0 +1,137 @@
+.slider__wrapper {
+  margin: 0 auto;
+  max-width: 280px;
+}
+
+.slider__images {
+  margin-bottom: 21px;
+}
+
+.slider__controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  width: 210px;
+  margin: 0 auto;
+}
+
+.slider__button {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.slider__button--before {
+  margin-left: 6px;
+}
+
+.slider__button--after {
+  margin-right: 5px;
+}
+
+.slider__scale {
+  background-color: #ffffff;
+  border: 1px solid #cdcdcd;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 86px;
+  height: 14px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 6px;
+}
+
+.slider__toggle {
+  position: absolute;
+  background-color: #68b738;
+  width: 36px;
+  left: 6px;
+  top: 3px;
+  height: 6px;
+  border: none;
+  border-radius: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: left 0.5s ease-out 0s;
+}
+
+@media (min-width: 768px) {
+  .slider__wrapper {
+    max-width: 591px;
+  }
+
+  .slider__images {
+    margin-bottom: 36px;
+  }
+
+  .slider__controls {
+    width: 592px;
+    padding-left: 7px;
+    padding-right: 4px;
+    box-sizing: border-box;
+  }
+
+  .slider__button {
+    font-size: 20px;
+    line-height: 30px;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.24);
+  }
+
+  .slider__scale {
+    background-color: #dcdcdc;
+    border: none;
+    width: 426px;
+    height: 6px;
+    padding: 0;
+    margin: 0 10px;
+  }
+
+  .slider__toggle {
+    left: 46%;
+    top: -14px;
+    width: 34px;
+    height: 34px;
+    background-color: #ffffff;
+    border: 1px solid #cdcdcd;
+    border-radius: 50%;
+    padding: 0;
+    filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.16));
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 12px;
+      top: 12px;
+      background-color: #68b738;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+  }
+}
+
+@media (min-width: 1220px) {
+  .slider__wrapper {
+    margin: 0;
+  }
+
+  .slider__images {
+    margin-bottom: 29px;
+  }
+
+  .slider__controls {
+    padding-left: 7px;
+    padding-right: 3px;
+  }
+}

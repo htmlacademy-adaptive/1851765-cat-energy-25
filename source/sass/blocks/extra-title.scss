@@ -1,0 +1,16 @@
+.extra-title {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+}
+
+@media (min-width: 768px) {
+  .extra-title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}

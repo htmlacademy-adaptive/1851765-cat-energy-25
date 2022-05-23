@@ -1,0 +1,123 @@
+.slider-images {
+  position: relative;
+  height: 232px;
+  width: 280px;
+}
+
+.slider-images__wrapper {
+  height: 100%;
+  width: 280px;
+  position: absolute;
+  background-color: #eaeaea;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  transition: all 1s;
+}
+
+.slider-images__wrapper--before {
+  z-index: 20;
+  width: 0;
+}
+
+.slider-images__state-before {
+  width: 100%;
+}
+
+.slider-images__wrapper--after {
+  z-index: 10;
+}
+
+.slider-images__image {
+  height: 100%;
+  width: 280px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+
+.slider-images__image--before {
+  background-image: url("../img/cat-before-mobile.png");
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/cat-before-mobile@2x.png");
+    background-size: 280px auto;
+  }
+}
+
+.slider-images__image--after {
+  background-image: url("../img/cat-after-mobile.png");
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/cat-after-mobile@2x.png");
+    background-size: 243px auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .slider-images__wrapper::before {
+    content: "";
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    height: 177px;
+    width: 592px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .slider-images__wrapper--after {
+    width: 584px;
+  }
+
+  .slider-images {
+    height: 511px;
+    width: 592px;
+  }
+
+  .slider-images__image--before {
+    background-image: url("../img/cat-before-tablet.png");
+    background-position: 0 6px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/cat-before-tablet@2x.png");
+      background-size: 650px auto;
+    }
+  }
+
+  .slider-images__image--after {
+    background-image: url("../img/cat-after-tablet.png");
+    background-position: 56px 7px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/cat-after-tablet@2x.png");
+      background-size: 536px auto;
+    }
+  }
+
+  .slider-images__state-before {
+    width: 50%;
+  }
+
+  .slider-images__image {
+    width: 592px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .slider-images__wrapper {
+    background-color: #f2f2f2;
+  }
+
+  .slider-images__wrapper::before {
+    height: 179px;
+  }
+
+  .slider-images__image--before {
+    background-position: 0 0;
+  }
+
+  .slider-images__image--after {
+    background-position: 56px 0;
+  }
+}
