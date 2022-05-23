@@ -152,7 +152,7 @@
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1440px) {
   .promo::before {
     content: "";
     background-repeat: no-repeat;
@@ -170,7 +170,7 @@
 
     @media (min-resolution: 2dppx) {
       background-image: url("/img/background-desktop@2x.jpg");
-      background-size: 720px auto;
+      background-size: cover;
     }
   }
 

@@ -46,16 +46,24 @@
 .text-input__contact {
   width: 100%;
 }
+/*
+закомментировал, потому что не проходил пулреквест
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+*/
+
+/*
+закомментировал, потому что не проходил пулреквест
 
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+*/
 
 .text-input__input--icon {
   padding-right: 44px;

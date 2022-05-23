@@ -57,9 +57,10 @@
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1440px) {
   .special-title__wrapper {
     max-width: 1220px;
+    display: block;
   }
 
   .special-title::before {
@@ -69,7 +70,8 @@
   .special-title__text {
     font-size: 36px;
     line-height: 36px;
-    padding: 0 40px 0 38px;
+    padding-right: 38px;
+    padding-left: 0;
     margin: 0;
   }
 }

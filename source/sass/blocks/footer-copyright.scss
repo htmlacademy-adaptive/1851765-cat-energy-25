@@ -16,14 +16,12 @@
   &:active {
     opacity: 0.3;
   }
-}
 
-.copyright__logo {
-  &:hover {
+  &:hover .copyright__icon {
     fill: #68b738;
   }
 
-  &:active {
+  &:active .copyright__icon {
     fill: #68b738;
     opacity: 0.3;
   }

@@ -9,19 +9,6 @@
   box-sizing: border-box;
 }
 
-.page-footer__logo {
-  margin-bottom: 32px;
-  display: block;
-
-  &:hover {
-    opacity: 0.8;
-  }
-
-  &:active {
-    opacity: 0.3;
-  }
-}
-
 .page-footer__logo-image {
   display: block;
   margin-left: auto;
@@ -51,7 +38,7 @@
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1440px) {
   .page-footer__wrapper {
     max-width: 1220px;
     padding: 0;
