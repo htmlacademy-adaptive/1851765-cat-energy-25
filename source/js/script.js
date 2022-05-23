@@ -5,6 +5,11 @@ let buttonAfter = document.querySelector('.slider__button--after');
 let sliderToggle = document.querySelector('.slider__toggle');
 let imageBefore = document.querySelector('.slider-images__wrapper--before');
 let imageAfter = document.querySelector('.slider-images__wrapper--after');
+let showMore = document.querySelector('.button--show-more');
+
+showMore.addEventListener('click', function() {
+  alert('На сегодня это всё! =)')
+})
 
 navMain.classList.remove('main-nav--nojs');
 

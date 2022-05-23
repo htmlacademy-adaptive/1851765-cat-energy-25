@@ -52,7 +52,7 @@
 
 .contacts__map-pin {
   position: absolute;
-  background-image: url("/img/map-pin-mobile.png");
+  background-image: url("../img/map-pin-mobile.png");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 56px;
@@ -61,7 +61,7 @@
   left: 42%;
 
   @media (min-resolution: 2dppx) {
-    background-image: url("/img/map-pin-mobile@2x.png");
+    background-image: url("../img/map-pin-mobile@2x.png");
   }
 }
 
@@ -95,14 +95,14 @@
   }
 
   .contacts__map-pin {
-    background-image: url("/img/map-pin-tablet.png");
+    background-image: url("../img/map-pin-tablet.png");
     width: 113px;
     height: 106px;
     top: 37%;
     left: 43%;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("/img/map-pin-tablet@2x.png");
+      background-image: url("../img/map-pin-tablet@2x.png");
     }
   }
 
@@ -163,12 +163,12 @@
   }
 
   .contacts__map-pin {
-    background-image: url("/img/map-pin-desktop.png");
+    background-image: url("../img/map-pin-desktop.png");
     top: 33%;
     left: 63%;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("/img/map-pin-desktop@2x.png");
+      background-image: url("../img/map-pin-desktop@2x.png");
     }
   }
 

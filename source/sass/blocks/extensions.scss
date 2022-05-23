@@ -64,7 +64,7 @@
 .extensions__gift {
   background-color: #68b738;
   background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
-    url("/img/catalog-promo-image.png");
+    url("../img/catalog-promo-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -78,7 +78,7 @@
 
   &::before {
     content: "";
-    background-image: url("/img/gift-icon.svg");
+    background-image: url("../img/gift-icon.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: block;
@@ -149,7 +149,7 @@
 
   .extensions__gift {
     background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
-      url("/img/catalog-promo-image-tablet.png");
+      url("../img/catalog-promo-image-tablet.png");
     margin-top: 69px;
     margin-bottom: 75px;
     display: flex;
@@ -161,7 +161,7 @@
 
     @media (min-resolution: 2dppx) {
       background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
-        url("/img/catalog-promo-image@2x.png");
+        url("../img/catalog-promo-image@2x.png");
     }
   }
 
@@ -225,7 +225,7 @@
 
   .extensions__gift {
     background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
-      url("/img/catalog-promo-image-desktop.png");
+      url("../img/catalog-promo-image-desktop.png");
     margin: 0;
     padding-top: 61px;
     padding-bottom: 42px;
@@ -237,7 +237,7 @@
 
     @media (min-resolution: 2dppx) {
       background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
-        url("/img/catalog-promo-image-desktop@2x.png");
+        url("../img/catalog-promo-image-desktop@2x.png");
     }
   }
 
