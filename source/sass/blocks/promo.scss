@@ -58,13 +58,10 @@
 }
 
 .promo__button-wrapper {
-  padding-right: 20px;
-  padding-left: 20px;
   max-width: 600px;
   margin: 0 auto;
-  padding-top: 138px;
+  padding: 138px 20px 10px;
   position: relative;
-  padding-bottom: 10px;
 }
 
 .promo__button::after {
@@ -105,36 +102,30 @@
   .promo__wrapper {
     background: #ffffff;
     padding-top: 27px;
-    padding-left: 119px;
     padding-bottom: 20px;
+    padding-left: 119px;
     min-height: 181px;
     max-width: 1024px;
   }
 
   .promo__header {
+    padding-top: 0;
+    margin: 0 auto 41px 0;
+    width: 416px;
     font-size: 60px;
     line-height: 60px;
-    padding-top: 0;
-    margin-top: 0;
-    margin-bottom: 41px;
-    margin-right: auto;
-    margin-left: 0;
-    width: 416px;
     text-align: start;
   }
 
   .promo__slogan {
+    padding-bottom: 0;
     font-size: 20px;
     line-height: 20px;
-    padding-bottom: 0;
   }
 
   .promo__button-wrapper {
     max-width: 1024px;
-    padding-right: 30px;
-    padding-left: 117px;
-    padding-bottom: 526px;
-    padding-top: 29px;
+    padding: 29px 30px 526px 117px;
   }
 
   .promo__button::after {
