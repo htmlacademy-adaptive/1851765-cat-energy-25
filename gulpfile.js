@@ -32,6 +32,7 @@ csso()
 
 const html = () => {
 return gulp.src('source/*.html')
+.pipe(htmlmin())
 .pipe(gulp.dest('build'));
 }
 
@@ -39,6 +40,7 @@ return gulp.src('source/*.html')
 
 const scripts = () => {
 return gulp.src('source/js/script.js')
+.pipe(terser())
 .pipe(gulp.dest('build/js'))
 .pipe(browser.stream());
 }
@@ -88,7 +90,6 @@ inlineSvg: true
 const copy = (done) => {
 gulp.src([
 'source/fonts/*.{woff2,woff}',
-'source/*.webmanifest',
 'source/*.ico',
 ], {
 base: 'source'
