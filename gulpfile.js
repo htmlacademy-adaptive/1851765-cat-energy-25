@@ -30,15 +30,15 @@ csso()
 
 // HTML
 
-export const html = () => {
+const html = () => {
 return gulp.src('source/*.html')
 .pipe(gulp.dest('build'));
 }
 
 // Scripts
 
-export const scripts = () => {
-return gulp.src('source/js/*.js')
+const scripts = () => {
+return gulp.src('source/js/script.js')
 .pipe(gulp.dest('build/js'))
 .pipe(browser.stream());
 }
@@ -88,8 +88,8 @@ inlineSvg: true
 const copy = (done) => {
 gulp.src([
 'source/fonts/*.{woff2,woff}',
-'source/*.ico',
 'source/*.webmanifest',
+'source/*.ico',
 ], {
 base: 'source'
 })
@@ -128,7 +128,7 @@ done();
 
 const watcher = () => {
 gulp.watch('source/sass/**/*.scss', gulp.series(styles));
-gulp.watch('source/js/*.js', gulp.series(scripts));
+gulp.watch('source/js/script.js', gulp.series(scripts));
 gulp.watch('source/*.html', gulp.series(html, reload));
 }
 
