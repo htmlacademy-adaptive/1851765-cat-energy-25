@@ -1,0 +1,17 @@
+.extra-description {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+@media (min-width: 768px) {
+  .extra-description {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

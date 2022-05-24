@@ -1,0 +1,157 @@
+.product__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 480px;
+}
+
+.product__link-image {
+  width: 140px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__image {
+  margin: auto;
+  max-width: 100%;
+}
+
+.product__content {
+  width: 140px;
+}
+
+.product__button {
+  flex: 0 0 100%;
+  margin-top: 22px;
+}
+
+.product__link-title {
+  text-decoration: none;
+  display: block;
+  padding-right: 64px;
+}
+
+.product__title {
+  margin: 0;
+  margin-bottom: 14px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.product__info-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product__info-item {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+}
+
+@media (min-width: 768px) {
+  .product__wrapper {
+    position: relative;
+    background-color: #f2f2f2;
+    padding: 161px 37px 39px 37px;
+    justify-content: center;
+    width: 324px;
+  }
+
+  .product__link-image {
+    position: absolute;
+    display: block;
+    min-width: 161px;
+    top: -10%;
+    left: 25%;
+  }
+
+  .product__link-image--big {
+    top: -16%;
+  }
+
+  .product__image {
+    min-width: 161px;
+    height: auto;
+  }
+
+  .product__content {
+    margin-bottom: 33px;
+    padding-top: 0;
+    min-width: 251px;
+  }
+
+  .product__link-title {
+    padding-right: 0;
+    margin-bottom: 14px;
+  }
+
+  .product__title {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .product__info-item {
+    padding-bottom: 8px;
+    padding-top: 7px;
+    border-bottom: 1px solid #cdcdcd;
+    font-size: 16px;
+  }
+
+  .product__button {
+    margin-top: 0;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .product__wrapper {
+    width: 245px;
+    padding: 163px 38px 40px 39px;
+  }
+
+  .product__link-image {
+    top: -12%;
+    left: 18%;
+  }
+
+  .product__link-image--big {
+    top: -17%;
+  }
+
+  .product__content {
+    min-width: 166px;
+  }
+
+  .product__link-title {
+    padding: 0 5px;
+    margin-bottom: 17px;
+  }
+
+  .product__title {
+    padding: 0;
+    line-height: 21px;
+    margin-bottom: 0;
+  }
+
+  .product__button {
+    min-width: 168px;
+  }
+}

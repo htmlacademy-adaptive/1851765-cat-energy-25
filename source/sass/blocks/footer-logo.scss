@@ -1,26 +1,22 @@
-.main-footer__logo {
+.page-footer__logo {
+  display: block;
   padding: 39px 0 32px;
-  border-bottom: 1px solid #d9d9d9;
   text-align: center;
+  cursor: pointer;
 }
 
-.main-footer__logo-image {
+.page-footer__logo--image {
   &:hover {
     opacity: 0.8;
   }
 
   &:active {
-    opacity: 0.6;
+    opacity: 0.3;
   }
 }
 
-.main-footer__logo--link {
-  display: inline-block;
-  cursor: pointer;
-}
-
 @media (min-width: 768px) {
-  .main-footer__logo {
+  .page-footer__logo {
     padding: 0;
     border-bottom: none;
   }

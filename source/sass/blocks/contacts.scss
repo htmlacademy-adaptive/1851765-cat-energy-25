@@ -1,68 +1,187 @@
-.contacts {
-  background-color: #ffffff;
-}
-
 .contacts__wrapper {
-  display: flex;
   padding: 26px 20px;
-  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.contacts--secondary-page {
+.contacts--additional {
   background-color: #f2f2f2;
 }
 
 .contacts__title {
-  margin: 0;
-  margin-right: 20px;
-  font-size: 16px;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
   text-transform: uppercase;
   color: #111111;
+  margin: 0;
+  width: 139px;
 }
 
-.contacts__description {
-  margin: 0;
+.contacts__address {
   font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
   color: #444444;
+  width: 139px;
+}
+
+.contacts__address span {
+  display: block;
+}
+
+.contacts__map {
+  position: relative;
+}
+
+.contacts__map-wrapper {
+  height: 362px;
+}
+
+.contacts__map-wrapper iframe {
+  width: 100%;
+  height: 362px;
+}
+
+.contacts__map-pin {
+  position: absolute;
+  background-image: url("../img/map-pin-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 56px;
+  height: 52px;
+  top: 38%;
+  left: 42%;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/map-pin-mobile@2x.png");
+  }
+}
+
+.contacts__map-image-wrapper {
+  display: none;
+  margin: 0 auto;
+  height: 362px;
+}
+
+.contacts__map-image {
+  display: block;
+  z-index: -1;
 }
 
 @media (min-width: 768px) {
   .contacts__wrapper {
-    justify-content: space-between;
-    align-items: center;
-    padding: 56px 70px;
+    padding: 59px 70px 61px;
+    max-width: 1024px;
+  }
+
+  .contacts__map-wrapper {
+    height: 400px;
+  }
+
+  .contacts__wrapper--additional {
+    background-color: #f2f2f2;
+  }
+
+  .contacts__map-wrapper iframe {
+    height: 400px;
+  }
+
+  .contacts__map-pin {
+    background-image: url("../img/map-pin-tablet.png");
+    width: 113px;
+    height: 106px;
+    top: 37%;
+    left: 43%;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/map-pin-tablet@2x.png");
+    }
   }
 
   .contacts__title {
-    width: 170px;
     font-size: 20px;
     line-height: 26px;
+    width: 171px;
   }
 
-  .contacts__description {
+  .contacts__address {
     font-size: 16px;
     width: 160px;
-    align-self: auto;
+    text-align: end;
+  }
+
+  .contacts__address-details {
+    margin-bottom: 20px;
   }
 }
 
 @media (min-width: 1440px) {
+  .contacts {
+    position: relative;
+    padding-top: 95px;
+    padding-bottom: 107px;
+  }
+
   .contacts__wrapper {
+    position: relative;
+    background-color: #ffffff;
+    z-index: 2;
+    left: 47%;
     width: 565px;
-    height: 198px;
-    padding: 59px 80px 56px;
-    box-sizing: border-box;
+    padding-top: 58px;
+    padding-bottom: 58px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0;
+    margin-left: -570px;
+    max-height: 300px;
+  }
+
+  .contacts__map {
     position: absolute;
-    top: 95px;
-    left: 110px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .contacts__map-wrapper {
+    height: 100%;
+  }
+
+  .contacts__map-wrapper iframe {
+    height: 100%;
+  }
+
+  .contacts__map-pin {
+    background-image: url("../img/map-pin-desktop.png");
+    top: 33%;
+    left: 63%;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/map-pin-desktop@2x.png");
+    }
+  }
+
+  .contacts--additional {
+    background-color: #ffffff;
   }
 
   .contacts__title {
-    margin: 0;
+    width: 163px;
   }
 
-  .contacts {
-    position: relative;
+  .contacts__address {
+    width: 155px;
+    text-align: start;
   }
 }

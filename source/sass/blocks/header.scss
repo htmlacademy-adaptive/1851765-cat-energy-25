@@ -1,22 +1,15 @@
-.main-header {
-  padding: 10px 20px 17px;
+.main-header__wrapper {
   position: relative;
+  padding-top: 10px;
+  margin: 0 auto;
 }
 
-.header__wrapper {
+.main-header__logo-link {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
-}
-
-.main-header__logo {
-  display: inline-block;
-  width: 190px;
-  height: 38px;
-  background-image: url("../img/logo-mobile.svg"), url("../img/logo-mobile-txt.svg");
-  background-position: left center, right center;
-  background-repeat: no-repeat, no-repeat;
+  width: 191px;
+  padding-bottom: 17px;
+  padding-left: 20px;
 
   &:hover {
     opacity: 0.8;
@@ -27,34 +20,61 @@
   }
 }
 
+.main-header__logo-picture {
+  margin-right: 57px;
+  width: 33px;
+  height: 38px;
+  display: block;
+}
+
+.main-header__logo-text {
+  width: 101px;
+  height: 18px;
+  display: block;
+  padding-top: 6px;
+}
+
 @media (min-width: 768px) {
-  .main-header__logo {
-    width: 174px;
-    height: 52px;
-    background-image: url("../img/logo-tablet.svg");
-    background-repeat: no-repeat;
-    background-position: left center;
+  .main-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 24px;
+    padding-bottom: 30px;
   }
 
-  .main-header {
-    padding: 24px 30px 0;
-    margin-bottom: 62px;
+  .main-header__logo-link {
+    width: 174px;
+    display: block;
+    padding: 0;
+  }
+
+  .main-header__logo-picture {
+    width: 174px;
+    height: 52px;
+  }
+
+  .main-header__logo-text {
+    display: none;
   }
 }
 
 @media (min-width: 1440px) {
-  .main-header {
-    padding: 49px 110px 0;
-    margin: 0;
+  .main-header__wrapper {
+    max-width: 1220px;
+    padding-top: 53px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
   }
 
-  .header__wrapper {
-    background-color: transparent;
+  .main-header__logo-link {
+    width: 202px;
   }
 
-  .main-header__logo {
+  .main-header__logo-picture {
     width: 202px;
     height: 59px;
-    background-image: url("../img/logo-desktop.svg");
   }
 }
