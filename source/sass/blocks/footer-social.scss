@@ -20,11 +20,11 @@
 }
 
 .social__image {
-  fill: #000000;
+  stroke: #666666;
   display: block;
 
   &:hover {
-    fill: #68b738;
+    stroke: #68b738;
   }
 
   &:active {

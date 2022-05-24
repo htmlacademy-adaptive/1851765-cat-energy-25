@@ -18,11 +18,11 @@
   }
 
   &:hover .copyright__icon {
-    fill: #68b738;
+    stroke: #68b738;
   }
 
   &:active .copyright__icon {
-    fill: #68b738;
+    stroke: #68b738;
     opacity: 0.3;
   }
 }
