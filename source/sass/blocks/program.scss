@@ -226,8 +226,8 @@
 @media (min-width: 1440px) {
   .program__title-wrapper {
     max-width: 1220px;
-    padding-top: 55px;
-    padding-bottom: 60px;
+    padding-top: 52px;
+    padding-bottom: 45px;
     margin: 0 auto;
   }
 
@@ -235,8 +235,8 @@
     max-width: 1220px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-    margin-bottom: 50px;
+    align-items: flex-start;
+    margin-bottom: 67px;
   }
 
   .program__fieldset-wrapper {
@@ -264,9 +264,12 @@
     align-items: baseline;
   }
 
-  .program__fieldset--contacts,
+  .program__fieldset--contacts {
+    margin-bottom: 49px;
+  }
+
   .program__fieldset--comment {
-    margin-bottom: 48px;
+    margin-bottom: 68px;
   }
 
   .program__fieldset--additional .program__list {
