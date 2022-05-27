@@ -241,6 +241,10 @@ input[type="number"] {
     border: 1px solid #bababa;
   }
 
+  &:active {
+    border: 1px solid #bababa;
+  }
+
   &:disabled {
     border: 1px solid #bababa;
     opacity: 0.3;
