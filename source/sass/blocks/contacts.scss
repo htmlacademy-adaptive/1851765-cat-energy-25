@@ -132,13 +132,14 @@
     z-index: 2;
     left: 47%;
     width: 565px;
-    padding-top: 58px;
-    padding-bottom: 58px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 59px 76px 58px 84px;
     margin: 0;
     margin-left: -570px;
     max-height: 300px;
+  }
+
+  .contacts__address-details {
+    margin-bottom: 18px;
   }
 
   .contacts__map {

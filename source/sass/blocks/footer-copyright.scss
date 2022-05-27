@@ -37,3 +37,13 @@
     margin-right: 24px;
   }
 }
+
+@media (min-width: 1440px) {
+  .copyright__link {
+    margin-right: 0;
+  }
+
+  .copyright__link--text {
+    margin-right: 22px;
+  }
+}

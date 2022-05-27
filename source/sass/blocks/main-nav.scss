@@ -66,6 +66,7 @@
   .main-nav__list {
     position: static;
     display: flex;
+    justify-content: right;
     flex-wrap: wrap;
   }
 
@@ -90,12 +91,15 @@
   }
 
   .main-nav__item {
-    margin-right: 35px;
+    margin-left: 35px;
     margin-bottom: 10px;
     border: none;
 
-    &:last-of-type {
+    &:first-of-type {
       margin-right: 0;
+    }
+
+    &:last-of-type {
       border: none;
     }
   }
