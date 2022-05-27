@@ -63,16 +63,16 @@
   border-radius: 6px;
   box-sizing: border-box;
   cursor: pointer;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0, 0.16);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16);
   transition: left 0.5s ease-out 0s;
 
   &:hover {
-    box-shadow: 0 2px 4px 0 rgba(0,0,0, 0.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   }
 
   &:active {
     border: 1px solid #68b738;
-    box-shadow: 0 3px 5px 0 rgba(0,0,0, 0.2);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
   }
 }
 
