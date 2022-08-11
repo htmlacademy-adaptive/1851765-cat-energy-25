@@ -167,11 +167,13 @@
 
   .promo__container {
     background-color: transparent;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   .promo__wrapper {
     max-width: 490px;
-    padding-left: 190px;
+    padding-left: 0;
     background-color: transparent;
     padding-top: 86px;
     min-height: 180px;
